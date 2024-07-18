@@ -24,10 +24,10 @@ export const navLinks = [
     id: "experience",
     title: "Experience",
   },
-  {
-    id: "works",
-    title: "Works",
-  },
+  // {
+  //   id: "works",
+  //   title: "Works",
+  // },
   {
     id: "contact",
     title: "Contact",
