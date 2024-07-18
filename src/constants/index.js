@@ -4,11 +4,15 @@ import {
   css,
   reactjs,
   tailwind,
-  nodejs,
-  mongodb,
+  // nodejs,
+  // mongodb,
   git,
   figma,
   threejs,
+  python,
+  java,
+  typescript,
+  swift,
   webdev,
   viable,
   cornell,
@@ -73,7 +77,22 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-
+{
+  name:"python",
+  icon:python
+},
+{
+  name:'java',
+  icon:java
+},
+{
+  name:"typescript",
+  icon: typescript
+},
+{
+  name:"swift",
+  icon:swift
+}
 ];
 
 const experiences = [
