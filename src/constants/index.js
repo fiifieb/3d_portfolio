@@ -81,7 +81,7 @@ const experiences = [
     title: "Team Lead",
     company_name: "Iris",
     icon: iris,
-    iconBg: "#E6DEDD",
+    iconBg: "#FFFFFF",
     date: "April 2024 - May 2024",
     points: [
       "Oversaw 5 developers to create Iris, an application to create personalized scheduling tool for users",
@@ -93,7 +93,7 @@ const experiences = [
     title: "Apprentice",
     company_name: "ViableEdu Fintech Program",
     icon: viable,
-    iconBg: "#383E56",
+    iconBg: "#FFFFFF",
     date: "July 2024",
     points: [
       "Completed multiple virtual programs focused on foundational and applied concepts in capital markets, market structure, personal finance, fintech, and entrepreneurship",
