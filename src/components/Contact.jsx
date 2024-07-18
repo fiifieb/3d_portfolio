@@ -32,9 +32,9 @@ const Contact = () => {
     setLoading(true);
 
     emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+      .sendForm(
+        'service_pnasc3j',
+        'template_rlzwc0f',
         {
           from_name: form.name,
           to_name: "Fiifi",
@@ -42,7 +42,7 @@ const Contact = () => {
           to_email: "feb49@cornell.edu",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        {publicKey:'S6y-0pyqmSO81yqWx'}
       )
       .then(
         () => {
