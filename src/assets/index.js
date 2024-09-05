@@ -2,6 +2,7 @@ import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
+import img2048 from "./img2048.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -47,6 +48,7 @@ export {
   // mongodb,
   // nodejs,
   reactjs,
+  img2048,
   tailwind,
   typescript,
   threejs,

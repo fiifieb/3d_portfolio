@@ -16,6 +16,7 @@ import {
   webdev,
   viable,
   cornell,
+  img2048,
   iris
 } from "../assets";
 
@@ -24,10 +25,10 @@ export const navLinks = [
     id: "experience",
     title: "Experience",
   },
-  // {
-  //   id: "works",
-  //   title: "Works",
-  // },
+  {
+    id: "projects",
+    title: "Projects",
+  },
   {
     id: "contact",
     title: "Contact",
@@ -108,18 +109,7 @@ const experiences = [
       "Fostered a supportive and inclusive classroom environment that encouraged student participation and celebrated diversity, promoting a culture of respect and collaboration among peers ",
     ],
   },
-  {
-    title: "Team Lead",
-    company_name: "Iris",
-    icon: iris,
-    iconBg: "#FFFFFF",
-    date: "April 2024 - May 2024",
-    points: [
-      "Oversaw 5 developers to create Iris, an application to create personalized scheduling tool for users",
-      "Organized weekly meetings for progress reports and for team members to give feedback and receive help",
-      "Implemented user friendly interface using SwiftUI, allowing users to input events, setting priorities and deadlines to ensure optimal scheduling"
-    ],
-  },
+
   {
     title: "Apprentice",
     company_name: "ViableEdu Fintech Program",
@@ -146,75 +136,66 @@ const experiences = [
     ],
   },
  
-
+  {
+    title: "Team Lead",
+    company_name: "Iris",
+    icon: iris,
+    iconBg: "#FFFFFF",
+    date: "April 2024 - May 2024",
+    points: [
+      "Oversaw 5 developers to create Iris, an application to create personalized scheduling tool for users",
+      "Organized weekly meetings for progress reports and for team members to give feedback and receive help",
+      "Implemented user friendly interface using SwiftUI, allowing users to input events, setting priorities and deadlines to ensure optimal scheduling"
+    ],
+  },
 
 ];
 
 
-// const projects = [
-//   {
-//     name: "Car Rent",
-//     description:
-//       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-//     tags: [
-//       {
-//         name: "react",
-//         color: "blue-text-gradient",
-//       },
-//       {
-//         name: "mongodb",
-//         color: "green-text-gradient",
-//       },
-//       {
-//         name: "tailwind",
-//         color: "pink-text-gradient",
-//       },
-//     ],
-//     image: carrent,
-//     source_code_link: "https://github.com/",
-//   },
-//   {
-//     name: "Job IT",
-//     description:
-//       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-//     tags: [
-//       {
-//         name: "react",
-//         color: "blue-text-gradient",
-//       },
-//       {
-//         name: "restapi",
-//         color: "green-text-gradient",
-//       },
-//       {
-//         name: "scss",
-//         color: "pink-text-gradient",
-//       },
-//     ],
-//     image: jobit,
-//     source_code_link: "https://github.com/",
-//   },
-//   {
-//     name: "Trip Guide",
-//     description:
-//       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-//     tags: [
-//       {
-//         name: "nextjs",
-//         color: "blue-text-gradient",
-//       },
-//       {
-//         name: "supabase",
-//         color: "green-text-gradient",
-//       },
-//       {
-//         name: "css",
-//         color: "pink-text-gradient",
-//       },
-//     ],
-//     image: tripguide,
-//     source_code_link: "https://github.com/",
-//   },
-// ];
+const projects = [
+  // {
+  //   name: "Timetable",
+  //   description:
+  //     "[IN PROGRESS]Application to allow Cornell students to automatically add exam information to calendar when available.",
+  //   tags: [
+  //     {
+  //       name: "SQLite3",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Flask",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "SQLAlchemy",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "BeautifulSoup",
+  //       color: "pink-text-gradient",
+  //     },      
+  //     {
+  //       name: "SwiftUI",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: todo,
+  //   source_code_link: "https://github.com/",
+  // },
+    {
+    name: "2048",
+    description:
+      "2048 game created entirely using PyGame.",
+    tags: [
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+    ],
+    image: img2048,
+    source_code_link: "https://github.com/fiifieb/2048",
+  },
+  
+];
 
-export { technologies, experiences};
+export { technologies, experiences,projects};
