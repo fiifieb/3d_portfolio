@@ -97,6 +97,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Consultant",
+    company_name: "CS1110 - Introduction to Computing",
+    icon: cornell,
+    iconBg: "#E6DEDD",
+    date: "August 2024 - Present",
+    points: [
+      "Demonstrated proficiency in Python, assisting 700+ students in mastering syntax and problem-solving techniques ",
+      "Developed and delivered engaging lesson plans biweekly, tailored to diverse learning styles and effectively communicating fundamental concepts in computer science",
+      "Fostered a supportive and inclusive classroom environment that encouraged student participation and celebrated diversity, promoting a culture of respect and collaboration among peers ",
+    ],
+  },
+  {
     title: "Team Lead",
     company_name: "Iris",
     icon: iris,
@@ -135,18 +147,7 @@ const experiences = [
   },
  
 
-  {
-    title: "Consultant",
-    company_name: "CS1110 - Introduction to Computing",
-    icon: cornell,
-    iconBg: "#E6DEDD",
-    date: "May 2024 - Present",
-    points: [
-      "Demonstrated proficiency in Python, assisting 700+ students in mastering syntax and problem-solving techniques ",
-      "Developed and delivered engaging lesson plans biweekly, tailored to diverse learning styles and effectively communicating fundamental concepts in computer science",
-      "Fostered a supportive and inclusive classroom environment that encouraged student participation and celebrated diversity, promoting a culture of respect and collaboration among peers ",
-    ],
-  },
+
 ];
 
 
