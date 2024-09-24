@@ -17,7 +17,8 @@ import {
   viable,
   cornell,
   img2048,
-  iris
+  iris,
+  build
 } from "../assets";
 
 export const navLinks = [
@@ -153,35 +154,35 @@ const experiences = [
 
 
 const projects = [
-  // {
-  //   name: "Timetable",
-  //   description:
-  //     "[IN PROGRESS]Application to allow Cornell students to automatically add exam information to calendar when available.",
-  //   tags: [
-  //     {
-  //       name: "SQLite3",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "Flask",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "SQLAlchemy",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "BeautifulSoup",
-  //       color: "pink-text-gradient",
-  //     },      
-  //     {
-  //       name: "SwiftUI",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: todo,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Timetable",
+    description:
+      "[IN PROGRESS]Application to allow Cornell students to automatically add exam information to calendar when available.",
+    tags: [
+      {
+        name: "SQLite3",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SQLAlchemy",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "BeautifulSoup",
+        color: "pink-text-gradient",
+      },      
+      {
+        name: "SwiftUI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: build,
+    source_code_link: "https://github.com/",
+  },
     {
     name: "2048",
     description:
@@ -195,7 +196,37 @@ const projects = [
     image: img2048,
     source_code_link: "https://github.com/fiifieb/2048",
   },
-  
+  {
+    name: "SwishVision",
+    description:
+      "Basketball shot predictor created with cvzone library.",
+    tags: [
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+    ],
+    image: img2048,
+    source_code_link: "https://github.com/fiifieb/SwishVision",
+  },
+  {
+    name: "Iris",
+    description:
+      "Personal scheduling tool made with Swift and Python.",
+    tags: [
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Swift",
+        color: "blue-text-gradient",
+      },
+
+    ],
+    image: iris,
+    source_code_link: "https://github.com/fiifieb/Iris",
+  },
 ];
 
 export { technologies, experiences,projects};
